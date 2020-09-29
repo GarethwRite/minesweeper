@@ -114,10 +114,7 @@ function startGame () {
   
 }
 
-// Define this function to look for a win condition:
-//
-// 1. Are all of the cells that are NOT mines visible?
-// 2. Are all of the mines marked?
+
 function checkForWin () {
   // the .filter() method creates a new array that pass the test implemented by the callback() function
   //the .filter is a cleaner method than for loops
